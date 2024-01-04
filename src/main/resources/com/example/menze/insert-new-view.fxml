@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="240.0" prefWidth="216.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.menze.InsertNewController">
+   <children>
+      <Label layoutX="36.0" layoutY="14.0" text="%unos_novog">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="90.0" text="%naziv_jela" />
+      <Label layoutX="10.0" layoutY="57.0" text="%kategorija" />
+      <Label layoutX="10.0" layoutY="120.0" text="%cijena" />
+      <Button layoutX="145.0" layoutY="184.0" mnemonicParsing="false" onAction="#unsesi" text="%unesi" />
+      <TextField fx:id="naziv" layoutX="49.0" layoutY="86.0" />
+      <TextField fx:id="cijena" layoutX="49.0" layoutY="116.0" />
+      <ComboBox fx:id="kategorije" layoutX="70.0" layoutY="53.0" onAction="#struktura" prefHeight="26.0" prefWidth="128.0" />
+      <Label fx:id="poruka" layoutX="18.0" layoutY="159.0" prefHeight="18.0" prefWidth="112.0" text="%unesi_sve!" textFill="#ff0000" visible="false" />
+      <CheckBox fx:id="vege" layoutX="70.0" layoutY="150.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="18.0" prefWidth="128.0" text="Vege meni" />
+      <ChoiceBox fx:id="subvencijaCB" layoutX="81.0" layoutY="147.0" prefHeight="26.0" prefWidth="118.0" visible="false" />
+      <Label fx:id="subvencija" layoutX="10.0" layoutY="151.0" prefHeight="18.0" prefWidth="72.0" text="%subvencija" visible="false" />
+   </children>
+</AnchorPane>

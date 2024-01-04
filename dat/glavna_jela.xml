@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><glavnaJela>
+        <glavnoJelo><id>1</id><naziv>Peceni pileci batak</naziv><cijena>0.69</cijena><vege>false</vege></glavnoJelo>
+        <glavnoJelo><id>2</id><naziv>Grah</naziv><cijena>0.48</cijena><vege>false</vege></glavnoJelo>
+        <glavnoJelo><id>4</id><naziv>Strukli sir</naziv><cijena>0.34</cijena><vege>false</vege></glavnoJelo>
+        <glavnoJelo><id>5</id><naziv>Lazanje</naziv><cijena>0.80</cijena><vege>false</vege></glavnoJelo>
+        <glavnoJelo><id>6</id><naziv>Sojin odrezak</naziv><cijena>0.65</cijena><vege>true</vege></glavnoJelo>
+</glavnaJela>

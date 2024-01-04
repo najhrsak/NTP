@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.menze.InsertMeniController">
+   <children>
+      <Label layoutX="245.0" layoutY="14.0" text="%novi_meni">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="79.0" text="%glavna_jela" />
+      <Label layoutX="51.0" layoutY="142.0" text="%prilozi" />
+      <Label layoutX="51.0" layoutY="206.0" text="%ostalo" />
+      <ComboBox fx:id="gj" layoutX="51.0" layoutY="97.0" onAction="#odabranoGlavnoJelo" prefWidth="150.0" />
+      <ComboBox fx:id="p" layoutX="51.0" layoutY="160.0" onAction="#odabranPrilog" prefWidth="150.0" />
+      <ComboBox fx:id="o" layoutX="51.0" layoutY="224.0" onAction="#odabranoOstalo" prefWidth="150.0" />
+      <Label layoutX="320.0" layoutY="79.0" text="%predpregled" />
+      <TextArea fx:id="preview" layoutX="320.0" layoutY="97.0" prefHeight="308.0" prefWidth="272.0" />
+      <Button layoutX="540.0" layoutY="424.0" mnemonicParsing="false" onAction="#spremi" text="%spremi" />
+   </children>
+</AnchorPane>

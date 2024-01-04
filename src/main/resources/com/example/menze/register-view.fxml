@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="394.0" prefWidth="269.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.menze.RegisterViewController">
+   <children>
+      <Button layoutX="90.0" layoutY="338.0" mnemonicParsing="false" onAction="#register" text="%registriraj" />
+      <Label layoutX="97.0" layoutY="364.0" onMouseClicked="#showLoginView" text="%imate_racun" textFill="#411fff" underline="true">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="14.0" text="%registracija">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="jmbag" layoutX="92.0" layoutY="57.0" />
+      <Label layoutX="37.0" layoutY="122.0" text="%prezime" />
+      <TextField fx:id="ime" layoutX="92.0" layoutY="88.0" />
+      <Label layoutX="55.0" layoutY="92.0" text="%ime" />
+      <TextField fx:id="prezime" layoutX="92.0" layoutY="118.0" />
+      <Label layoutX="37.0" layoutY="153.0" text="%eadresa" />
+      <TextField fx:id="eAdresa" layoutX="92.0" layoutY="149.0" />
+      <Label layoutX="38.0" layoutY="61.0" text="JMBAG: " />
+      <Label layoutX="36.0" layoutY="184.0" text="%fakultet" />
+      <TextField fx:id="fakultet" layoutX="92.0" layoutY="180.0" />
+      <Label layoutX="13.0" layoutY="217.0" text="%user" />
+      <TextField fx:id="user" layoutX="99.0" layoutY="213.0" prefHeight="26.0" prefWidth="143.0" />
+      <Label layoutX="52.0" layoutY="248.0" text="%pass" />
+      <Label layoutX="10.0" layoutY="281.0" text="%repass" />
+      <PasswordField fx:id="pass" layoutX="100.0" layoutY="244.0" prefHeight="26.0" prefWidth="143.0" />
+      <PasswordField fx:id="passconf" layoutX="100.0" layoutY="277.0" prefHeight="26.0" prefWidth="143.0" />
+      <Label fx:id="poruka" layoutX="120.0" layoutY="310.0" textFill="RED" />
+      <Label layoutX="32.0" layoutY="310.0" text="%slika" />
+      <Button layoutX="71.0" layoutY="306.0" mnemonicParsing="false" onAction="#odaberiSliku" text="%odaberi" />
+      <Label fx:id="putanja" layoutX="145.0" layoutY="310.0" prefHeight="18.0" prefWidth="110.0" />
+   </children>
+</AnchorPane>
